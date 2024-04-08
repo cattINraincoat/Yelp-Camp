@@ -1,4 +1,5 @@
-Project Title: YelpCamp
+
+<h1>YelpCamp</h1>
 
 Description: Developed a full-stack web application called YelpCamp that allows users to create accounts, login securely, and contribute campground blogs. 
 The application features authentication and authorization functionalities to ensure secure user access. 
