@@ -38,11 +38,11 @@ const reviewRoutes = require("./routes/review.js");
 const userRoutes = require("./routes/users.js");
 const { Console } = require('console');
 
-const dbUrl = process.env.DB_URL || "mongodb://127.0.0.1:27017/yelp-camp";
+const dbUrl = process.env.DB_URL;
 //process.env.DB_URL;
 //mongodb://127.0.0.1:27017/yelp-camp
 
-mongoose.connect(dbUrl) // *********************there weere some options here check in the first yelpcamp section for future reference
+mongoose.connect("mongodb://127.0.0.1:27017/yelp-camp") 
   .then(()=>{
     console.log("Mongo Connection Open")
   })
