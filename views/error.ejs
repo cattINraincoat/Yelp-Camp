@@ -1,0 +1,13 @@
+<% layout("layout/boilerplate.ejs") %>
+
+<div class="row">
+    <div class="col-lg-6 offset-lg-3">
+        <div class="alert alert-danger" role="alert">
+            <h4 class="alert-heading"><%= err.message %></h4>
+            <% if(process.env.NODE_ENV !== "production"){ %>
+                <p><%= err.stack %></p>
+            <!--in development we see the stack trace but not in production-->
+            <% } %>    
+        </div>
+    </div>
+</div>
