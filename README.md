@@ -7,7 +7,7 @@ Users have CRUD (Create, Read, Update, Delete) functionality for managing campgr
 Additionally, users can leave reviews on campgrounds. The application employs a NoSQL MongoDB database to efficiently store campground data, reviews, and user information such as usernames and passwords.
 
 <b>Technologies Used:</b> <br>
-Frontend: HTML, CSS, JavaScript <br>
+Frontend: HTML, CSS Bootstrap, JavaScript <br>
 Backend: Node.js, Express.js <br>
 Database: MongoDB <br>
 Authentication: Passport.js <br>
